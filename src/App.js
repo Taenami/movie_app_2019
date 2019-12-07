@@ -1,8 +1,13 @@
 import React from 'react';
+import Potato from './Potato';
+
 
 function App() {
   return (
-    <div>Hello mother fucker</div>
+    <>
+      <div>Hello world</div>
+      <Potato/>
+    </>
   );
 }
 
