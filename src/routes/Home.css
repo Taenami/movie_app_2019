@@ -81,3 +81,12 @@ body,
   margin-right: 10px;
   font-size:14px;
 }
+
+.movie__summary {
+  /* 여러 줄 자르기 스타일 지정 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
