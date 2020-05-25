@@ -32,12 +32,14 @@ body,
   align-items: flex-start;
   flex-wrap: wrap;
   padding-top: 70px;
-  padding: 50px;
   width:80%;
 }
 
-.movies .movie {
+.movies > a {
   width: 45%;
+}
+
+.movies .movie {
   background-color: white;
   margin-bottom: 70px;
   display: flex;
